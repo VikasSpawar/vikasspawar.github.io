@@ -843,6 +843,8 @@ padding: 20px;
   transition: all 0.3s;
  }
  
+
+/*  
  a::after {
   pointer-events: none;
   content: "";
@@ -869,7 +871,7 @@ padding: 20px;
   box-shadow: 0 0 0.6em .25em var(--glow-color),
          0 0 2.5em 2em var(--glow-spread-color),
          inset 0 0 .5em .25em var(--glow-color);
- }
+ } */
 
 
 
