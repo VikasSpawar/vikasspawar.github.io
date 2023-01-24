@@ -35,7 +35,15 @@
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
-                <li><a href="https://drive.google.com/uc?export=download&id=1Fiu2438wDy5NphBfqgbqH77G9mio1ARW" target="_blank" class="menu-btn" download="Vikas-Pawar-Resume">Resume</a></li>
+               <li class="menu-btn" >
+          
+                    <a href="https://drive.google.com/uc?export=download&id=1Fiu2438wDy5NphBfqgbqH77G9mio1ARW"  download="Vikas-Pawar-Resume"  onclick="handleClick()">
+                    
+                    <span class="txt-container">Resume</span>  
+                    </a>
+                  </a>
+                  
+                  </li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -50,7 +58,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Vikas Pawar</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="https://drive.google.com/file/d/1Fiu2438wDy5NphBfqgbqH77G9mio1ARW/view?usp=sharing" target="_blank" download="true"  download="Vikas-Pawar-Resume" >Resume</a>
+                <a href="https://drive.google.com/file/d/1Fiu2438wDy5NphBfqgbqH77G9mio1ARW/view?usp=sharing" target="_blank" download="Vikas-Pawar-Resume" onclick="handleClick()" >Resume</a>
             </div>
         </div>
     </section>
@@ -414,6 +422,10 @@
     // or enable responsive functionality
     GitHubCalendar(".calendar", "VikasSpawar", { responsive: true });
     GitHubCalendar("")
+    
+     function handleClick(){
+        window.open('https://drive.google.com/file/d/1Fiu2438wDy5NphBfqgbqH77G9mio1ARW/view','_blank')
+    }
 </script>
 
 
