@@ -139,7 +139,7 @@
     transition: color 0.3s ease;
   }
   .navbar .menu li a:hover {
-    color: #9416e9;
+     color:rgb(255, 59, 59)
   }
   .navbar.sticky .menu li a:hover {
     color: #fff;
