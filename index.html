@@ -28,14 +28,14 @@
     </div>
     <nav id="nav-menu" class="navbar">
         <div  class="max-width">
-            <div  class="logo"><a href="#">Vikas<span>Pawar</span></a></div>
+            <div  class="logo"><a  href="#">Vikas<span>Pawar</span></a></div>
              <ul  style="padding: 5px;padding-right: 20px;padding-bottom: 8px; background-color: #9416e9;border-radius: 50px;" class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#project" class="menu-btn">Projects</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
-               <li class="menu-btn" >
+                <li><a href="#home" class="menu-btn nav-link home">Home</a></li>
+                <li><a href="#about" class="menu-btn nav-link about">About</a></li>
+                <li><a href="#skills" class="menu-btn nav-link skills">Skills</a></li>
+                <li><a href="#project" class="menu-btn nav-link projects">Projects</a></li>
+                <li><a href="#contact" class="menu-btn nav-link contact">Contact</a></li>
+               <li class="menu-btn nav-link resume" >
           
                     <a href="https://drive.google.com/uc?export=download&id=1Fiu2438wDy5NphBfqgbqH77G9mio1ARW"  download="Vikas-Pawar-Resume"  onclick="handleClick()">
                     
@@ -56,7 +56,7 @@
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Vikas Pawar</div>
+                <div id="user-detail-name" class="text-2">Vikas Pawar</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
                <a href="https://drive.google.com/uc?export=download&id=1Fiu2438wDy5NphBfqgbqH77G9mio1ARW"  download="Vikas-Pawar-Resume"  onclick="handleClick()">
                     
@@ -68,15 +68,15 @@
     </section>
 
     <!-- about section start -->
-    <section class="about" id="about">
+    <section class="about section" id="about">
         <div class="max-width">
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="./images/Vikas.jpg" alt="">
+                    <img id="home-img" src="./images/Vikas.jpg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Vikas Pawar and I'm a <span class="typing-2"></span></div>
+                    <div id="user-detail-intro" class="text">I'm Vikas Pawar and I'm a <span class="typing-2"></span></div>
                     <p>Dedicated and detail-oriented Full Stack Developer, with strong adaptability, good attention to detail, and the ability to write efficient code. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.</p>
                      <p>
                         Capable of writing Production-Ready Code Using
@@ -132,79 +132,79 @@
 
 
     <!-- project section start -->
-    <section class="project" id="project">
+    <section class="project" id="project" id="projects">
         <div class="max-width">
             <h2 class="title">Projects</h2>
             <div class="carousel owl-carousel">
-                  <div class="card">
+                  <div class="card project-card">
                     <div class="box">
                       <img src="./images/portfolio-1.jpg" alt="">
-                        <div class="text">Tomtop</div>
-                        <p> Tomtop.com online shopping for cell phones, home decor,
+                        <div class="text project-title">Tomtop</div>
+                        <p class="project-description"> Tomtop.com online shopping for cell phones, home decor,
                             dresses, and cameras.</p></br>
                         
                            
                         
-                        <p class="techStack">Tech Used: HTML, CSS, JavaScript</p>
+                        <p class="techStack project-tech-stack">Tech Used: HTML, CSS, JavaScript</p>
                         <div class="repo-links">
                             <div class="repo-div">
-                                <span>  <a href="https://github.com/anubhav4968/TomTopCloneByMasai" target="_blank"> Git Repo </a></span>
+                                <span>  <a class="project-github-link" href="https://github.com/anubhav4968/TomTopCloneByMasai" target="_blank"> Git Repo </a></span>
                             </div>
                             <div class="demo-div">
-                                <span> <a href="https://tom-top-clone-by-masai.vercel.app/" target="_blank">  Live Site  </a></span>
+                                <span> <a class="project-deployed-link" href="https://tom-top-clone-by-masai.vercel.app/" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card project-card">
                     <div class="box">
                         <img src="./images/portfolio-3.jpg" alt="">
-                        <div class="text">Lumen5</div>
-                      <p>Lumen5.com It is an online video editing website on which users can
+                        <div class="text project-title">Lumen5</div>
+                      <p class="project-description">Lumen5.com It is an online video editing website on which users can
                         create videos for social media. </p></br>
                      
-                        <p class="techStack">Tech Used: React, JavaScript, ChakraUi, CSS</p>
+                        <p class="techStack project-tech-stack">Tech Used: React, JavaScript, ChakraUi, CSS</p>
                         <div class="repo-links">
                             <div class="repo-div">
-                                <span>  <a href="https://github.com/VikasSpawar/Lumen5Clone" target="_blank"> Git Repo </a></span>
+                                <span>  <a class="project-github-link" href="https://github.com/VikasSpawar/Lumen5Clone" target="_blank"> Git Repo </a></span>
                             </div>
                             <div class="demo-div">
-                                <span> <a href="https://lumen5clone.vercel.app/" target="_blank">  Live Site  </a></span>
+                                <span> <a class="project-deployed-link" href="https://lumen5clone.vercel.app/" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card project-card">
                     <div class="box">
                         <img src="./images/urbanCompany1.PNG" alt="">
-                        <div class="text">Urban Company</div>
-                      <p>This project is a clone of Urban Company website. Which is named Urban Service. This is a collaborative project. </p></br>
+                        <div class="text project-title">Urban Company</div>
+                      <p class="project-description">This project is a clone of Urban Company website. Which is named Urban Service. This is a collaborative project. </p></br>
                      
-                        <p class="techStack">Tech Used: React, JavaScript, ChakraUi, CSS</p>
+                        <p class="techStack project-tech-stack">Tech Used: React, JavaScript, ChakraUi, CSS</p>
                         <div class="repo-links">
                             <div class="repo-div">
-                                <span>  <a href="https://github.com/VikasSpawar/UrbanCompany_Clone" target="_blank"> Git Repo </a></span>
+                                <span>  <a class="project-github-link" href="https://github.com/VikasSpawar/UrbanCompany_Clone" target="_blank"> Git Repo </a></span>
                             </div>
                             <div class="demo-div">
-                                <span> <a href="https://quack-spoon-1626.vercel.app/" target="_blank">  Live Site  </a></span>
+                                <span> <a class="project-deployed-link" href="https://quack-spoon-1626.vercel.app/" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card project-card">
                     <div class="box">
                         <img src="./images/portfolio-2.jpg" />
-                        <div class="text">Outlook</div>
-                        <p>Outlook.com is a daily News website that provides
+                        <div class="text project-title">Outlook</div>
+                        <p class="project-description">Outlook.com is a daily News website that provides
                             national and International news.</p></br>
                          
-                        <p class="techStack">Tech Used: Html, JavaScript and CSS</p>
+                        <p class="techStack project-tech-stack">Tech Used: Html, JavaScript and CSS</p>
                         <div class="repo-links">
                             <div class="repo-div">
-                                <span>  <a href="https://github.com/arpitkumarsahu/DemoOutlook" target="_blank"> Git Repo </a></span>
+                                <span>  <a class="project-github-link" href="https://github.com/arpitkumarsahu/DemoOutlook" target="_blank"> Git Repo </a></span>
                             </div>
                             <div class="demo-div">
-                                <span> <a href="https://loquacious-kheer-13bb24.netlify.app/index.html" target="_blank">  Live Site  </a></span>
+                                <span> <a class="project-deployed-link" href="https://loquacious-kheer-13bb24.netlify.app/index.html" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
@@ -265,21 +265,21 @@
                             <a href=" mailto:pawarvikas534@gmail.com">   <i class="fas fa-envelope"></i> </a>
                             <div class="info">
                                 <div class="head"></div>
-                                <div class="sub-title">  <a href="mailto:pawarvikas534@gmail.com"></a> pawarvikas534@gmail.com </a> </div>
+                                <div class="sub-title">  <a id="contact-email" href="mailto:pawarvikas534@gmail.com"></a> pawarvikas534@gmail.com </a> </div>
                             </div>
                         </div>
                         <div class="row">
-                             <a href="https://www.linkedin.com/in/vikas-pawar03/" target="_blank"> <i class="fab fa-linkedin"></i> </a>
+                             <a  href="https://www.linkedin.com/in/vikas-pawar03/" target="_blank"> <i class="fab fa-linkedin"></i> </a>
                             <div class="info">
                                 <!-- <div class="head">Address</div> -->
-                                <div class="sub-title">  <a href="https://in.linkedin.com/in/vikas-pawar03" target="_blank">Linkedin</a> </div>
+                                <div class="sub-title">  <a id="contact-linkedin" href="https://in.linkedin.com/in/vikas-pawar03" target="_blank">Linkedin</a> </div>
                             </div>
                         </div>
                         <div class="row">
                              <a href="https://github.com/VikasSpawar" target="_blank"> <i class="fab fa-github"></i> </a>
                             <div class="info">
                                 <!-- <div class="head">Email</div> -->
-                                <div class="sub-title"> <a href="https://github.com/VikasSpawar" target="_blank" >GitHub</a> </div>
+                                <div class="sub-title"> <a id="contact-github" href="https://github.com/VikasSpawar" target="_blank" >GitHub</a> </div>
                             </div>
                         </div>
 
@@ -287,7 +287,7 @@
                             <i class="fas fa-phone-alt"></i>
                            <div class="info">
                                <!-- <div class="head">Email</div> -->
-                               <div class="sub-title"> +91 7066750126</div>
+                               <div id="contact-phone" class="sub-title"> +91 7066750126</div>
                            </div>
                        </div>
 
