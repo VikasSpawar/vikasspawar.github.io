@@ -185,7 +185,7 @@
   /* home section styling */
   .home {
     display: flex;
-    background: url("https://upload.wikimedia.org/wikipedia/commons/e/ee/MacBook_Pro_3rd_Generation_%28colorful_2%29.jpg") no-repeat center;
+    background: url("./images/bg.jpg") no-repeat center;
     background-color: #111;
     height: 100vh;
     color: #fff;
