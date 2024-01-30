@@ -185,7 +185,7 @@
   /* home section styling */
   .home {
     display: flex;
-    background: url("./images/bg.jpg") no-repeat center;
+    background: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2548.jpg?w=740&t=st=1706598719~exp=1706599319~hmac=45657db1763e73268b1cb2341453ba6cc40469613dc87f8c71edabde3fbad9ff") no-repeat center;
     background-color: #111;
     height: 100vh;
     color: #fff;
